@@ -22,11 +22,25 @@ class _HomeViewState extends State<HomeView> {
   void initState() {
     // TODO: implement initState
     super.initState();
-
+    descargarPosts();
 
   }
 
+  void descargarPosts() async{
+    CollectionReference<FbPost> ref=db.collection("Posts")
+        .withConverter(fromFirestore: FbPost.fromFirestore,
+      toFirestore: (FbPost post, _) => post.toFirestore(),);
 
+
+    QuerySnapshot<FbPost> querySnapshot=await ref.get();
+    for(int i=0;i<querySnapshot.docs.length;i++){
+      setState(() {
+        posts.add(querySnapshot.docs[i].data());
+      });
+
+    }
+
+  }
 
   @override
   Widget build(BuildContext context) {
