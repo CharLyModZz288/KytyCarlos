@@ -16,7 +16,7 @@ class PerfilView extends StatelessWidget{
 
   void onClickAceptar() async{
 
-    FbUsuario usuario = new FbUsuario(nombre: tecNombre.text,
+    FbUsuario usuario = new FbUsuario(Nombre: tecNombre.text,
         edad: int.parse(tecEdad.text), altura: 0,colorPelo: "");
 
 

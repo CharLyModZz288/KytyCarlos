@@ -37,7 +37,7 @@ class LoginView extends StatelessWidget{
       FbUsuario usuario=docSnap.data()!;
 
       if(usuario!=null){
-        print("EL NOMBRE DEL USUARIO LOGEADO ES: "+usuario.nombre);
+        print("EL NOMBRE DEL USUARIO LOGEADO ES: "+usuario.Nombre);
         print("LA EDAD DEL USUARIO LOGEADO ES: "+usuario.edad.toString());
         print("LA ALTURA DEL USUARIO LOGEADO ES: "+usuario.altura.toString());
         Navigator.of(_context).popAndPushNamed("/homeview");
