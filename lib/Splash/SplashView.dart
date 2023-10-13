@@ -40,7 +40,7 @@ class _SplashViewState extends State<SplashView>{
       FbUsuario usuario=docSnap.data()!;
 
       if(usuario!=null){
-        print("EL NOMBRE DEL USUARIO LOGEADO ES: "+usuario.Nombre);
+        print("EL NOMBRE DEL USUARIO LOGEADO ES: "+usuario.nombre);
         print("LA EDAD DEL USUARIO LOGEADO ES: "+usuario.edad.toString());
         Navigator.of(context).popAndPushNamed("/homeview");
       }
