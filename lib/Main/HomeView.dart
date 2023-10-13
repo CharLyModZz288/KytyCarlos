@@ -47,13 +47,13 @@ class _HomeViewState extends State<HomeView> {
     // TODO: implement build
     return Scaffold(
       appBar: AppBar(title: Text("KYTY"),),
-      /*body: ListView.separated(
+      body: ListView.separated(
         padding: EdgeInsets.all(8),
         itemCount: posts.length,
         itemBuilder: creadorDeItemLista,
         separatorBuilder: creadorDeSeparadorLista,
-      ),*/
-      body: Center(
+      ),
+      /*body: Center(
         child:
         GridView.builder(
             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
@@ -62,7 +62,7 @@ class _HomeViewState extends State<HomeView> {
             itemCount: posts.length,
             itemBuilder: creadorDeItemLista,
             ),
-      ),
+      ),*/
     );
   }
 
