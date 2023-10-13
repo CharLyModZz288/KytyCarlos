@@ -57,7 +57,7 @@ class _HomeViewState extends State<HomeView> {
         child:
         GridView.builder(
             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 3,
+                crossAxisCount: 4,
             ),
             itemCount: posts.length,
             itemBuilder: creadorDeItemLista,
