@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "253995653187",
-    "project_id": "ejercicio1-198cc",
-    "storage_bucket": "ejercicio1-198cc.appspot.com"
+    "project_number": "471064692053",
+    "project_id": "kytycarlos",
+    "storage_bucket": "kytycarlos.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:253995653187:android:551acdffaedb0c98339cf6",
+        "mobilesdk_app_id": "1:471064692053:android:2882402b9d29fd6dca9bdc",
         "android_client_info": {
           "package_name": "com.example.ejercicio1"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDHTiRsqNhigNVkkGxdMBiMuz60lHadlRM"
+          "current_key": "AIzaSyCzCX-Us6FyYRvU91B9pYQNLbGtu_RLXd0"
         }
       ],
       "services": {
@@ -26,7 +26,7 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:253995653187:android:0ca24801ee0204c9339cf6",
+        "mobilesdk_app_id": "1:471064692053:android:31acbb9139fea4c5ca9bdc",
         "android_client_info": {
           "package_name": "org.eurekamps.kyty"
         }
@@ -34,7 +34,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDHTiRsqNhigNVkkGxdMBiMuz60lHadlRM"
+          "current_key": "AIzaSyCzCX-Us6FyYRvU91B9pYQNLbGtu_RLXd0"
         }
       ],
       "services": {
