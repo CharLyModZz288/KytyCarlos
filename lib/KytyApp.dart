@@ -6,6 +6,7 @@ import 'package:kyty/Main/HomeView.dart';
 import 'package:kyty/OnBoarding/PhoneLoginView.dart';
 import 'package:kyty/Splash/SplashView.dart';
 
+import 'Main/HomePruebaView.dart';
 import 'Main/PostCreateView.dart';
 import 'Main/PostView.dart';
 import 'OnBoarding/LoginView.dart';
@@ -22,14 +23,16 @@ class KytyApp extends StatelessWidget{
       materialApp=MaterialApp(title: "KyTy Miau!",
         routes: {
           '/loginview':(context) => LoginView(),
+          '/homeviewprueba':(context) => HomePruebaView(),
           '/registerview':(context) => RegisterView(),
           '/homeview':(context) => HomeView(),
           '/splashview':(context) => SplashView(),
           '/perfilview':(context) => PerfilView(),
           '/postview':(context) => PostView(),
           '/postcreateview':(context) => PostCreateView(),
+
         },
-        initialRoute: '/homeview',
+        initialRoute: '/homeviewprueba',
       );
     }
     else{
@@ -43,7 +46,7 @@ class KytyApp extends StatelessWidget{
           '/postview':(context) => PostView(),
           '/postcreateview':(context) => PostCreateView(),
         },
-        initialRoute: '/splashview',
+        initialRoute: '/homeview',
       );
     }
 
