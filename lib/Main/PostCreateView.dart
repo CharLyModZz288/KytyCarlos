@@ -113,6 +113,7 @@ class _PostCreateViewState extends State<PostCreateView> {
             ),
             TextButton(onPressed: () {
               subirPost();
+              Navigator.of(context).pushNamed("/homeview");
 
 
               /**/
